@@ -1,4 +1,6 @@
 build:
-  image: python:2.7
+  image: docker:1.9.1
   commands:
-    - pip install boto
+    - docker build .
+  volumes:
+    - /var/run/docker.sock:/var/run/docker.sock:ro
