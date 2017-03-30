@@ -1,5 +1,5 @@
 pipeline:
   docker:
-    image: axadiltex/testRepo
-    repo: axadiltex/testRepo
+    image: axadiltex/testrepo
+    repo: axadiltex/testrepo
     tags: latest
