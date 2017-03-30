@@ -1,6 +1,6 @@
 FROM debian:latest
 
 RUN apt-get update && \
-    apt-get install git
+    apt-get install git -y
 
 
