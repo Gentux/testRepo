@@ -1,6 +1,5 @@
-build:
-  image: docker:1.9.1
-  commands:
-    - docker build .
-  volumes:
-    - /var/run/docker.sock:/var/run/docker.sock:ro
+pipeline:
+  docker:
+    image: axadiltex/testRepo
+    repo: axadiltex/testRepo
+    tags: latest
