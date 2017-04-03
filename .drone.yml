@@ -2,4 +2,5 @@ pipeline:
   docker:
     image: plugins/docker
     repo: axadiltex/testrepo
+    registry: localhost:5000/axadiltex/testrepo
     tags: latest
